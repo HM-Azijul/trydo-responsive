@@ -1,0 +1,156 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    a.nav-link,
+    .buy-now {
+        background: #fff;
+        color: #F9004D;
+        border: 3px solid #F9004D;
+        margin: 8px;
+        text-align: center;
+        border-radius: 10px;
+        width: 60%;
+    }
+
+    /* = */
+    .home-content h1 {
+        font-size: 80px;
+    }
+
+    .home-content p {
+        font-size: 19px;
+        line-height: normal;
+    }
+
+    .section-content h2 {
+        font-size: 45px;
+    }
+
+    .section-content br {
+        display: none;
+    }
+
+    .brand-image img {
+        width: 18%;
+    }
+
+    /* = */
+
+    .right-content img {
+        margin-top: 150px;
+    }
+
+    .brand-image img {
+        width: 18%;
+    }
+
+
+}
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .home-content h1 {
+        font-size: 80px;
+    }
+
+    .home-content p {
+        font-size: 19px;
+        line-height: normal;
+    }
+
+    .section-content h2 {
+        font-size: 45px;
+    }
+
+    .section-content br {
+        display: none;
+    }
+
+    .first-content {
+        margin: 0px;
+    }
+
+    .about-img {
+        margin-top: 100px;
+    }
+
+    .testimonial-text h3 br {
+        display: none;
+    }
+
+    .testimonial-text h3 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .testimonial-text h3 br {
+        display: none;
+    }
+
+    .brand-image img {
+        width: 18%;
+    }
+}
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {}
+
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+
+    /* = */
+    .home-content h1 {
+        font-size: 50px;
+    }
+
+    .home-content p {
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .home-content p br {
+        display: none;
+    }
+
+    .section-content h2 {
+        font-size: 35px;
+    }
+
+    .section-content br {
+        display: none;
+    }
+
+    .brand-image img {
+        width: 110px;
+    }
+
+    /* = */
+    .about h3 {
+        font-size: 20px;
+    }
+
+    .service-item {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .counter-content p {
+        display: ;
+    }
+
+    .testimonial-text h3 {
+        font-size: 25px;
+        line-height: 45px;
+    }
+
+    .testimonial-text h3 br {
+        display: none;
+    }
+}

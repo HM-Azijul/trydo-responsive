@@ -1,0 +1,621 @@
+/* ====================================================
+  Template Name: Trydo 05 Landing Creative Agency (Clone by Azijul)
+  Template URI: http://rainbowit.net/html/trydo/05-landing-creative-agency.html
+  Description: Trydo 05 Landing Creative Agency (Clone by Azijul for practice Purpose)
+
+  Author: HM Azijul
+  Author URI: http://www.hmazijul.com
+  version: 1.0
+==================================================== */
+
+/* CSS Index
+------------------------------------
+
+01. Template Default CSS 
+02. header css
+03. home css
+04. service css
+
+
+
+
+
+
+*/
+
+/* ====================================================
+  Google Fonts
+==================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+a,
+.button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.btn:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {}
+
+p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #1D1D24;
+  font-weight: 300;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+li a {
+
+  color: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.form-control:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+
+/* ====================================================
+   Author's custom styles
+   ==================================================== */
+
+/* ..................................
+ 02. header css 
+.................................. */
+header {
+  color: #C6C9D8;
+  padding: 0 30px;
+}
+
+.active {
+  background-color: #F9004D;
+  color: #fff;
+  border: #F9004D;
+  border-radius: 10px;
+}
+
+
+.buy-now {
+  background-color: transparent;
+  border: 2px solid #c6c9D8;
+  padding: 10px 25px;
+  color: #C6C9D8;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-left: 50px;
+}
+
+.buy-now:hover {
+  background-color: #F9004D;
+  color: #fff;
+  border: #F9004D;
+}
+
+header ul li {
+  font-size: 18px;
+  text-transform: capitalize;
+  padding: 0 5px;
+  color: #C6C9D8;
+  margin: 0 5px;
+}
+
+header ul li:hover {
+  background-color: #F9004D;
+  color: #fff;
+  border: #F9004D;
+  border-radius: 10px;
+}
+
+.navbar-toggler {
+  background-color: #f9004d;
+}
+
+
+
+
+/* ..................................
+ 03. home css 
+.................................. */
+.home {
+  background-image: url(../img/bg-image-home.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 180px 0 100px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.home:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(rgba(3, 6, 28, 0.7), rgba(3, 6, 28, 0.9));
+  z-index: -1;
+  opacity: .8;
+}
+
+.home-content h1 {
+  font-size: 110px;
+  font-weight: 800;
+  margin: 10px 0;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #f9004d 0%, #FFA500 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font: {
+    size: 20vw;
+    family: $font;
+  }
+
+  ;
+}
+
+.home-content p {
+  color: #C6C9D8;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 300;
+}
+
+.contact-btn {
+  margin-top: 35px;
+  background-color: transparent;
+  border: 2px solid #c6c9D8;
+  padding: 15px 40px;
+  color: #C6C9D8;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.contact-btn:hover {
+  background-color: #F9004D;
+  color: #fff;
+  border: #F9004D;
+}
+
+
+/* ..................................
+ 04. service css 
+.................................. */
+.service {
+  padding: 100px 0 50px 0;
+}
+
+.service-item {
+  background-color: #F8F9FC;
+  text-align: ;
+  padding: 50px 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.service-icon i {
+  font-size: 55px;
+  color: #F9004D;
+  background-color: ;
+  border-radius: 50%;
+  font-size: 50px;
+}
+
+.service-item h4 {
+  font-size: 24px;
+  text-transform: capitalize;
+  margin: 15px 0;
+}
+
+.service-item p {
+  color: #1d1d24;
+  font-weight: 300;
+}
+
+/* service hover */
+.service .service-item:hover {
+  background: linear-gradient(to top, #f9004d 17%, #ffa500 107%);
+  color: #fff;
+}
+
+.service-item:hover i,
+.service-item:hover p {
+  color: #fff;
+}
+
+
+
+
+/* ..................................
+ 05. about CSS 
+.................................. */
+.about {
+  background-color: #F8F9FC;
+  padding: 100px 0;
+}
+
+.about-img img {
+  border-radius: 20px;
+  width: 100%;
+  padding: 5px;
+}
+
+.first-content {
+  margin-top: 100px;
+}
+
+/* section-content start*/
+.section-content h2 {
+  color: #1F1F25;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.section-content p {
+  color: #717173;
+  margin: 20px 0;
+  font-weight: 400;
+}
+
+/* section-content end*/
+
+.about h3 {
+  margin-top: 30px;
+}
+
+
+
+/* ..................................
+ 06. portfolio CSS 
+.................................. */
+.portfolio {
+  padding: 100px 0;
+}
+
+.portfolio-item {
+  height: ;
+  width: 100%;
+  padding: 50px 40px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.portfolio-item-content {
+  margin-top: 80%;
+}
+
+.portfolio-item-content span {
+  font-size: 15px;
+  color: #C6C9D8;
+}
+
+.portfolio-item-content h5 {
+  font-size: 24px;
+  color: #fff;
+  margin: 15px 0 20px 0;
+  font-weight: 600;
+}
+
+/* portfolio item all background image list */
+
+.portfolio-item-01 {
+  background-image: url(../img/portfolio/portfolio-1.jpg);
+}
+
+.portfolio-item-02 {
+  background-image: url(../img/portfolio/portfolio-2.jpg);
+}
+
+.portfolio-item-03 {
+  background-image: url(../img/portfolio/portfolio-3.jpg);
+}
+
+
+/* portfolio item case study button */
+.case-study {
+  background-color: transparent;
+  border: 2px solid #c6c9D8;
+  padding: 10px 25px;
+  color: #C6C9D8;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.case-study:hover {
+  background-color: #F9004D;
+  color: #fff;
+  border: #F9004D;
+}
+
+/*portfolio-item all hover css*/
+.portfolio-item:hover {
+  background: linear-gradient(to top, #f9004d 17%, #ffa500 107%);
+  opacity: ;
+  transform: scale(1.07);
+  transition: 1s;
+}
+
+
+/* ..................................
+ 07. counter CSS 
+.................................. */
+.counter {
+  background-color: #F8F9FC;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.counter h4 {
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #1F1F25;
+  margin-bottom: 30px;
+}
+
+.counter-content h2 {
+  font-size: 75px;
+  font-weight: 600;
+  color: #F9004D;
+}
+
+
+
+/* ..................................
+ 08. team CSS 
+.................................. */
+.team {
+  padding: 100px 0;
+}
+
+.team-item {
+  height: ;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.team-item-content {
+  margin-top: 120%;
+}
+
+.team-inner {
+  padding: 40px 35px;
+  border-radius: 10px;
+  opacity: 0;
+}
+
+.team-inner i {
+  color: #fff;
+  font-size: 20px;
+  padding: 0 5px;
+}
+
+.team-item-content h5 {
+  font-size: 20px;
+  color: #fff;
+  margin: 5px 0;
+  font-weight: 600;
+}
+
+.team-item-content span {
+  font-size: 15px;
+  color: #C6C9D8;
+}
+
+/* team item all background image list */
+
+.team-item-01 {
+  background-image: url(../img/team/team-01.jpg);
+}
+
+.team-item-02 {
+  background-image: url(../img/team/team-02.jpg);
+}
+
+.team-item-03 {
+  background-image: url(../img/team/team-03.jpg);
+}
+
+.team-item-04 {
+  background-image: url(../img/team/team-04.jpg);
+}
+
+.team-item-05 {
+  background-image: url(../img/team/team-05.jpg);
+}
+
+.team-item-06 {
+  background-image: url(../img/team/team-06.jpg);
+}
+
+
+/*team-item all hover css*/
+.team-item:hover .team-inner {
+  background: linear-gradient(to top, #f9004d 17%, #ffa500 107%);
+  opacity: 1;
+}
+
+
+/* ..................................
+ 09. testimonial CSS 
+.................................. */
+.testimonial {
+  background-color: #F8F9FC;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.testimonial-text h3 {
+  font-size: 36px;
+  color: #18181B;
+  line-height: 55px;
+}
+
+.testimonial-text p {
+  margin: 40px 0;
+}
+
+.testimonial-image img {
+  margin: 10px;
+}
+
+/* ..................................
+ 10. blog CSS 
+.................................. */
+.blog {
+  padding: 100px 0;
+}
+
+/* blogitem all background image list */
+
+.blog-item-01 {
+  background-image: url(../img/blog/blog-01.jpg);
+}
+
+.blog-item-02 {
+  background-image: url(../img/blog/blog-02.jpg);
+}
+
+.blog-item-03 {
+  background-image: url(../img/blog/blog-03.jpg);
+}
+
+/* ..................................
+ 11. contact CSS 
+.................................. */
+.contact {
+  background-color: #F8F9FC;
+  padding: 100px 50px;
+}
+
+.left-content {
+  margin-top: px;
+}
+
+.left-content form input,
+textarea {
+  margin-bottom: 20px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+form input {
+  width: 100%;
+}
+
+form textarea {
+  width: 100%;
+}
+
+.submit-btn {
+  background-color: #F9004D;
+
+  padding: 20px 50px;
+  color: #fff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.submit-btn:hover {
+  background-color: #fff;
+  color: #F9004D;
+  border: 2px solid #F9004D;
+}
+
+/* right image css */
+.right-content img {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+
+/* ..................................
+ 12. brand CSS 
+.................................. */
+.brand {
+  padding: 100px 50px;
+  text-align: center;
+}
+
+.brand-image img {
+  padding: 30px 20px;
+}
+
+
+
+/* ..................................
+ 13. footer CSS 
+.................................. */
+footer {
+  text-align: center;
+  background-color: #1D1D24;
+  padding: 60px;
+}
+
+.footer-text p {
+  text-transform: capitalize;
+  color: #fff;
+}
